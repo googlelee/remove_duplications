@@ -2,7 +2,7 @@ from imagededup.methods import PHash
 import os
 
 phasher = PHash()
-image_dir = r'Cropped/not_linmian'
+image_dir = r'image_dir'
 
 if __name__ == '__main__':
     duplicates_list = phasher.find_duplicates_to_remove(image_dir)
